@@ -16,6 +16,8 @@
 | Factory Method   	|   The factory pattern takes out the responsibility of instantiating a object from the class to a Factory class.	| (1) java.util.Calendar, ResourceBundle and NumberFormat getInstance() methods uses Factory pattern. <br>(2) valueOf() method in wrapper classes like Boolean, Integer etc.  	|   	|
 | Builder          	|  Creating an object step by step and a method to finally get the object instance. 	|   	|   	|
 
+<br>
+
 ## Structural
   - [Proxy](#proxy)
   - [Composite](#composite)
@@ -24,6 +26,18 @@
   - [Adapter](#adapter)
   - [Flyweight](#flyweight)
   - [Bridge](#bridge)
+
+| Pattern Name 	|  Description 	|  Used in Java 	| Real time Application |
+|------------------	|---	|---	|---	|
+| Proxy 	|   	|   	|
+| Composite        	|   	|   	|
+| Decorator        	|   	|   	|
+| Façade   	|   	|   	|
+| Adapter          	|   	|   	|
+| Flyweight          	|   	|   	|
+| Bridge          	|   	|   	|
+
+<br>
 
 ## Behavioral
   - [Chain of Responsibility](#chain-of-responsibility)
@@ -36,6 +50,21 @@
   - [Mediator](#mediator)
   - [Strategy](#strategy)
   - [Observer](#observer)
+
+| Pattern Name 	|  Description 	|  Used in Java 	| Real time Application |
+|------------------	|---	|---	|---	|
+| Chain of Responsibility 	|   	|   	|
+| Iterator        	|   	|   	|
+| State        	|   	|   	|
+| Visitor   	|   	|   	|
+| Template          	|   	|   	|
+| Command          	|   	|   	|
+| Memento          	|   	|   	|
+| Mediator          	|   	|   	|
+| Strategy          	|   	|   	|
+| Observer          	|   	|   	|
+
+<br>
 
 ## Abstract Factory
 
