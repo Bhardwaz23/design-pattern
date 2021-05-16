@@ -2,67 +2,45 @@
 
 
 ## Creational -> The design patterns that deal with the creation of an object.
-  - [Abstract Factory](#abstract-factory)
-  - [Singleton](#singleton)
-  - [Prototype](#prototype)
-  - [Factory Method](#factory-method)
-  - [Builder](#builder)
 
 | Pattern Name 	|  Description 	|  Used in Java 	| Real time Application |
 |------------------	|---	|---	|---	|
-| Abstract Factory 	|  Allows us to create a Factory for factory classes. 	|  (1)javax.xml.parsers.DocumentBuilderFactory#newInstance() (2)javax.xml.transform.TransformerFactory#newInstance() <br>(3) javax.xml.xpath.XPathFactory#newInstance() 	|   	|
-| Singleton        	|The singleton pattern restricts the initialization of a class to ensure that only one instance of the class can be created.   	|  (1)java.lang.StringBuilder#append() (unsynchronized) <br> (2)java.lang.StringBuffer#append() (synchronized) 	|   	|
-| Prototype        	|  Creating a new object instance from another similar instance and then modify according to our requirements. 	|   	|   	|
-| Factory Method   	|   The factory pattern takes out the responsibility of instantiating a object from the class to a Factory class.	| (1) java.util.Calendar, ResourceBundle and NumberFormat getInstance() methods uses Factory pattern. <br>(2) valueOf() method in wrapper classes like Boolean, Integer etc.  	|   	|
-| Builder          	|  Creating an object step by step and a method to finally get the object instance. 	|   	|   	|
+| [Abstract Factory](#abstract-factory) 	|  Allows us to create a Factory for factory classes. 	|  (1)javax.xml.parsers.DocumentBuilderFactory#newInstance() (2)javax.xml.transform.TransformerFactory#newInstance() <br>(3) javax.xml.xpath.XPathFactory#newInstance() 	|   	|
+| [Singleton](#singleton)        	|The singleton pattern restricts the initialization of a class to ensure that only one instance of the class can be created.   	|  (1)java.lang.StringBuilder#append() (unsynchronized) <br> (2)java.lang.StringBuffer#append() (synchronized) 	|   	|
+| [Prototype](#prototype)        	|  Creating a new object instance from another similar instance and then modify according to our requirements. 	|   	|   	|
+| [Factory Method](#factory-method)   	|   The factory pattern takes out the responsibility of instantiating a object from the class to a Factory class.	| (1) java.util.Calendar, ResourceBundle and NumberFormat getInstance() methods uses Factory pattern. <br>(2) valueOf() method in wrapper classes like Boolean, Integer etc.  	|   	|
+| [Builder](#builder)          	|  Creating an object step by step and a method to finally get the object instance. 	|   	|   	|
 
 <br>
 
 ## Structural
-  - [Proxy](#proxy)
-  - [Composite](#composite)
-  - [Decorator](#decorator)
-  - [Façade](#fa%c3%a7ade)
-  - [Adapter](#adapter)
-  - [Flyweight](#flyweight)
-  - [Bridge](#bridge)
 
 | Pattern Name 	|  Description 	|  Used in Java 	| Real time Application |
 |------------------	|---	|---	|---	|
-| Proxy 	|   	|   	|
-| Composite        	|   	|   	|
-| Decorator        	|   	|   	|
-| Façade   	|   	|   	|
-| Adapter          	|   	|   	|
-| Flyweight          	|   	|   	|
-| Bridge          	|   	|   	|
+| [Proxy](#proxy) 	|   	|   	|
+| [Composite](#composite)        	|   	|   	|
+| [Decorator](#decorator)        	|   	|   	|
+| [Façade](#fa%c3%a7ade)   	|   	|   	|
+| [Adapter](#adapter)          	|   	|   	|
+| [Flyweight](#flyweight)          	|   	|   	|
+| [Bridge](#bridge)          	|   	|   	|
 
 <br>
 
 ## Behavioral
-  - [Chain of Responsibility](#chain-of-responsibility)
-  - [Iterator](#iterator)
-  - [State](#state)
-  - [Visitor](#visitor)
-  - [Template](#template)
-  - [Command](#command)
-  - [Memento](#memento)
-  - [Mediator](#mediator)
-  - [Strategy](#strategy)
-  - [Observer](#observer)
 
 | Pattern Name 	|  Description 	|  Used in Java 	| Real time Application |
 |------------------	|---	|---	|---	|
-| Chain of Responsibility 	|   	|   	|
-| Iterator        	|   	|   	|
-| State        	|   	|   	|
-| Visitor   	|   	|   	|
-| Template          	|   	|   	|
-| Command          	|   	|   	|
-| Memento          	|   	|   	|
-| Mediator          	|   	|   	|
-| Strategy          	|   	|   	|
-| Observer          	|   	|   	|
+| [Chain of Responsibility](#chain-of-responsibility) 	|   	|   	|
+| [Iterator](#iterator)        	|   	|   	|
+| [State](#state)        	|   	|   	|
+| [Visitor](#visitor)   	|   	|   	|
+| [Template](#template)          	|   	|   	|
+| [Command](#command)          	|   	|   	|
+| [Memento](#memento)          	|   	|   	|
+| [Mediator](#mediator)          	|   	|   	|
+| [Strategy](#strategy)          	|   	|   	|
+| [Observer](#observer)          	|   	|   	|
 
 <br>
 
