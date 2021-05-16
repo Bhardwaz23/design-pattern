@@ -1,12 +1,20 @@
 # design-pattern ~ GoF
 
 
-## Creational
+## Creational -> The design patterns that deal with the creation of an object.
   - [Abstract Factory](#abstract-factory)
   - [Singleton](#singleton)
   - [Prototype](#prototype)
   - [Factory Method](#factory-method)
   - [Builder](#builder)
+
+| Pattern Name 	|  Description 	|  Used in Java 	| Real time Application |
+|------------------	|---	|---	|---	|
+| Abstract Factory 	|  Allows us to create a Factory for factory classes. 	|  (1)javax.xml.parsers.DocumentBuilderFactory#newInstance() (2)javax.xml.transform.TransformerFactory#newInstance() <br>(3) javax.xml.xpath.XPathFactory#newInstance() 	|   	|
+| Singleton        	|The singleton pattern restricts the initialization of a class to ensure that only one instance of the class can be created.   	|  (1)java.lang.StringBuilder#append() (unsynchronized) <br> (2)java.lang.StringBuffer#append() (synchronized) 	|   	|
+| Prototype        	|  Creating a new object instance from another similar instance and then modify according to our requirements. 	|   	|   	|
+| Factory Method   	|   The factory pattern takes out the responsibility of instantiating a object from the class to a Factory class.	| (1) java.util.Calendar, ResourceBundle and NumberFormat getInstance() methods uses Factory pattern. <br>(2) valueOf() method in wrapper classes like Boolean, Integer etc.  	|   	|
+| Builder          	|  Creating an object step by step and a method to finally get the object instance. 	|   	|   	|
 
 ## Structural
   - [Proxy](#proxy)
