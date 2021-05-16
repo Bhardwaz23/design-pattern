@@ -185,5 +185,5 @@ javax.servlet.http.HttpServlet, the service() and all doXXX() methods take HttpS
 javax.servlet.Filter#doFilter()
 
 ## Reference
-https://sourcemaking.com/design_patterns
-https://www.journaldev.com/31902/gangs-of-four-gof-design-patterns
+- https://sourcemaking.com/design_patterns
+- https://www.journaldev.com/31902/gangs-of-four-gof-design-patterns
