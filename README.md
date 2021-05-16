@@ -13,34 +13,34 @@
 
 <br>
 
-## Structural
+## Structural -> The design patterns in this category deals with the class structure such as Inheritance and Composition.
 
 | Pattern Name 	|  Description 	|  Used in Java 	| Real time Application |
 |------------------	|---	|---	|---	|
-| [Proxy](#proxy) 	|   	|   	|
-| [Composite](#composite)        	|   	|   	|
-| [Decorator](#decorator)        	|   	|   	|
-| [Façade](#fa%c3%a7ade)   	|   	|   	|
-| [Adapter](#adapter)          	|   	|   	|
-| [Flyweight](#flyweight)          	|   	|   	|
-| [Bridge](#bridge)          	|   	|   	|
+| [Proxy](#proxy) 	| Provide a surrogate or placeholder for another object to control access to it.  	|   	|
+| [Composite](#composite)        	| Used when we have to implement a part-whole hierarchy. For example, a diagram made of other pieces such as circle, square, triangle, etc.  	|   	|
+| [Decorator](#decorator)        	| The decorator design pattern is used to modify the functionality of an object at runtime.  	|   	|
+| [Façade](#fa%c3%a7ade)   	|  Creating a wrapper interfaces on top of existing interfaces to help client applications. 	|   	|
+| [Adapter](#adapter)          	|Provides an interface between two unrelated entities so that they can work together.   	|   	|
+| [Flyweight](#flyweight)          	|  Caching and reusing object instances, used with immutable objects. For example, string pool. 	|   	|
+| [Bridge](#bridge)          	| The bridge design pattern is used to decouple the interfaces from implementation and hiding the implementation details from the client program.  	|   	|
 
 <br>
 
-## Behavioral
+## Behavioral -> This type of design patterns provide solution for the better interaction between objects, how to provide lose coupling, and flexibility to extend easily in future.
 
 | Pattern Name 	|  Description 	|  Used in Java 	| Real time Application |
 |------------------	|---	|---	|---	|
-| [Chain of Responsibility](#chain-of-responsibility) 	|   	|   	|
-| [Iterator](#iterator)        	|   	|   	|
-| [State](#state)        	|   	|   	|
-| [Visitor](#visitor)   	|   	|   	|
-| [Template](#template)          	|   	|   	|
-| [Command](#command)          	|   	|   	|
-| [Memento](#memento)          	|   	|   	|
-| [Mediator](#mediator)          	|   	|   	|
-| [Strategy](#strategy)          	|   	|   	|
-| [Observer](#observer)          	|   	|   	|
+| [Chain of Responsibility](#chain-of-responsibility) 	| used to achieve loose coupling in software design where a request from the client is passed to a chain of objects to process them.  	|   	|
+| [Iterator](#iterator)        	| used to provide a standard way to traverse through a group of Objects.  	|   	|
+| [State](#state)        	| 	State design pattern is used when an Object change it’s behavior based on it’s internal state.  	|   	|
+| [Visitor](#visitor)   	|  Visitor pattern is used when we have to perform an operation on a group of similar kind of Objects. 	|   	|
+| [Template](#template)          	| used to create a template method stub and defer some of the steps of implementation to the subclasses.  	|   	|
+| [Command](#command)          	|  Command Pattern is used to implement lose coupling in a request-response model. 	|   	|
+| [Memento](#memento)          	| The memento design pattern is used when we want to save the state of an object so that we can restore later on.  	|   	|
+| [Mediator](#mediator)          	|  used to provide a centralized communication medium between different objects in a system. 	|   	|
+| [Strategy](#strategy)          	|  Strategy pattern is used when we have multiple algorithm for a specific task and client decides the actual implementation to be used at runtime. 	|   	|
+| [Observer](#observer)          	|  useful when you are interested in the state of an object and want to get notified whenever there is any change. 	|   	|
 
 <br>
 
