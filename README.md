@@ -186,3 +186,4 @@ javax.servlet.Filter#doFilter()
 
 ## Reference
 https://sourcemaking.com/design_patterns
+https://www.journaldev.com/31902/gangs-of-four-gof-design-patterns
